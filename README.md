@@ -1,4 +1,4 @@
-# LED Matrix Space Shooter 🚀
+# Alien Shooter 🚀
 
 A bare-metal embedded C and ARM Assembly game developed for the Xilinx Zynq-7000 SoC. This project drives a DM163 LED matrix directly via memory-mapped registers and utilizes hardware timer interrupts for game logic and screen refreshing. 
 
@@ -9,6 +9,7 @@ Made in a group of two for a course.
 * **Custom LED Matrix Driver:** Implements a driver for the DM163 LED controller, bit-banging the transmission of 144 bits per refresh cycle.
 * **Hardware Interrupts:** Utilizes the ARM Generic Interrupt Controller (GIC) and Xilinx Triple Timer Counters (TTC) for decoupled screen rendering (800Hz) and game logic (10Hz).
 * **Interactive Gameplay:** Read inputs from GPIO buttons/switches to move the ship, fire bullets, and reset the game state. Includes collision detection and win/loss animations.
+<img width="2030" height="1110" alt="image" src="https://github.com/user-attachments/assets/84c57d7a-e042-4a0b-a3e4-f9d542c9b27f" />
 
 ## Tech Stack 🛠️
 * **Hardware:** Zynq-7000 SoC (ARM Cortex-A9), DM163 8x8 RGB LED Matrix.
